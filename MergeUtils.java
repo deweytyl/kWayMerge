@@ -27,7 +27,7 @@ public class MergeUtils {
 	 * @return a sorted array of the values from arrays
 	 */
 	public static ArrayList<Integer> merge(ArrayList<ArrayList<Integer>> arrays) {
-		int sz, k;
+		int sz;
 		Iterator<Integer> iterator;
 		ArrayList<Integer> arr;
 		PQItem item;
